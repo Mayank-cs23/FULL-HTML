@@ -1,0 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+}
+.image{
+    background-image: url(../../header1.png);
+    height:50%;
+}

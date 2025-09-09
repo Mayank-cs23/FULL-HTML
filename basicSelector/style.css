@@ -1,0 +1,49 @@
+/*element selector*/
+p{
+    color:red;
+}
+
+/*class selector*/
+.para{
+    color:blue;
+}
+
+/*id selector*/
+#spcl{
+    color:green;
+}
+
+/*universal selector*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*attribute selector*/
+a[href="http://www.google.com"]{
+    color: orange;
+}
+
+/*descendant selector*/
+div p{
+    color: purple;
+}
+/* child slector */
+
+
+
+
+/* L:-Link V:-Visited H:-Hover A:-Active */
+a:link{
+    color: black;
+    text-decoration: none; /* Removes Link's underline */
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: pink;
+}
